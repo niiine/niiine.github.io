@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Home</title>
-	<link href="https://barf.bt.ht/atom.xml" rel="self" />
-	<updated>2023-03-27T15:00:56Z</updated>
+	<link href="/atom.xml" rel="self" />
+	<updated>2023-03-28T15:18:04Z</updated>
 	<author>
 		<name>Strahl</name>
 	</author>
-	<id>https://barf.bt.ht,2023-01-04:default-atom-feed/</id>
+	<id>,2023-01-04:default-atom-feed/</id>
 	<entry>
 		<title>Markdown Examples in barf</title>
 		<content type="html">&lt;h1&gt;Markdown Examples in barf&lt;/h1&gt;
@@ -242,8 +242,8 @@ passed through to the resulting document without modification. This is a good
 way to work around features that are missing in smu. If you don&#39;t want this
 behaviour, use the &lt;code&gt;-n&lt;/code&gt; flag when executing smu to stricly escape the HTML
 tags.&lt;/p&gt;</content>
-		<link href="https://barf.bt.ht/markdown-examples"/>
-		<id>https://barf.bt.ht/markdown-examples</id>
+		<link href="/markdown-examples"/>
+		<id>/markdown-examples</id>
 		<updated>2023-01-05T00:00:00Z</updated>
 		<published>2023-01-05T00:00:00Z</published>
 	</entry>
@@ -268,8 +268,8 @@ brew install gnu-sed
 &lt;pre&gt;&lt;code&gt;published_date=$(gdate -d $basic_date +%FT%TZ)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;After that everything should work perfectly fine. There is probably a cleaner way to do this, but I like to keep things simple.&lt;/p&gt;</content>
-		<link href="https://barf.bt.ht/macos"/>
-		<id>https://barf.bt.ht/macos</id>
+		<link href="/macos"/>
+		<id>/macos</id>
 		<updated>2023-01-18T00:00:00Z</updated>
 		<published>2023-01-18T00:00:00Z</published>
 	</entry>
@@ -286,8 +286,8 @@ brew install gnu-sed
 &lt;h2&gt;Minor Caveat&lt;/h2&gt;
 &lt;p&gt;Unfortunately, Safari still has minor &lt;code&gt;ahref&lt;/code&gt; / link color issue when defaulting to browser dark mode. If this is a problem for your own build of &lt;code&gt;barf&lt;/code&gt;, take a look at a &lt;a href=&quot;https://bt.ht/safari-default-dark-mode/&quot;&gt;solution I wrote about here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Personally, I can&#39;t be bothered to add that extra code to this project. The Safari team needs to get their shit together and fix such a simple bug. Plus, you shouldn&#39;t be using Safari anyway - it&#39;s proprietary garbage.&lt;/p&gt;</content>
-		<link href="https://barf.bt.ht/dark-mode"/>
-		<id>https://barf.bt.ht/dark-mode</id>
+		<link href="/dark-mode"/>
+		<id>/dark-mode</id>
 		<updated>2023-03-07T00:00:00Z</updated>
 		<published>2023-03-07T00:00:00Z</published>
 	</entry>
@@ -302,8 +302,8 @@ brew install gnu-sed
 &lt;li&gt;1&lt;/li&gt;
 &lt;li&gt;1&lt;/li&gt;
 &lt;/ul&gt;</content>
-		<link href="https://barf.bt.ht/Kap"/>
-		<id>https://barf.bt.ht/Kap</id>
+		<link href="/Kap"/>
+		<id>/Kap</id>
 		<updated>2023-10-22T00:00:00Z</updated>
 		<published>2023-10-22T00:00:00Z</published>
 	</entry>
