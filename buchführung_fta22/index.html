@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark light">
+	<link rel="icon" href="data:,">
+	<title>Niiine</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: sans-serif;
+			line-height: 1.45;
+			margin: 0 auto;
+			max-width: 45rem;
+			padding: 0 15px;
+		}
+		hr {
+			background-color: grey;
+			border: 0;
+			height: 1px;
+			margin: 2rem 0;
+		}
+		nav {
+			margin: 2rem 0 0;
+		}
+		main {
+			hyphens: auto;
+		}
+		main p {
+			margin: 1rem;
+		}
+		h1,h2,h3,h4 {
+			margin: 2rem 0 0;
+		}
+		h1 {
+			margin-bottom: 0.5rem;
+		}
+		h1 + p {
+			margin: 0 0 1rem;
+		}
+		span.created {
+			display: block;
+			margin: 4px 15px;
+		}
+		img {
+			border: 1px solid lightgrey;
+			height: auto;
+			max-width: 100%;
+			width: auto;
+		}
+		blockquote {
+			border: 1px solid;
+			border-left: 6px solid;
+			margin: 2rem 0;
+			padding: 10px;
+		}
+		blockquote p {
+			margin: 0;
+		}
+		figure {
+			margin: 2rem 0;
+		}
+		figcaption {
+			color: slategrey;
+		}
+		code {
+			border: 1px solid;
+			padding: 0.1rem 0.3rem;
+			tab-size: 4;
+		}
+		pre {
+			border: 1px solid;
+		}
+		pre code {
+			border: 0;
+			display: block;
+			overflow-x: auto;
+			padding: 0.3rem 0.6rem;
+		}
+		table {
+			border-collapse: collapse;
+			margin: 2rem 0;
+			text-align: left;
+			width: 100%;
+		}
+		tr {
+			border-bottom: 1px solid lightgrey;
+		}
+		tr:nth-of-type(odd) td {
+			background-color: #f8f8f8;
+		}
+		th,td {
+			padding: 6px;
+		}
+		footer {
+			border-top: 1px dashed grey;
+			margin: 2rem 0;
+			padding: 1rem 15px;
+		}
+		@supports (color-scheme: dark light) {
+			@media screen and (prefers-color-scheme: dark) {
+				a:link {color: #9e9eff;}
+				a:visited {color: #d0adf0;}
+				a:active {color: red;}
+			}
+		}
+	</style>
+</head>
+
+<nav>
+	<a href="/">Home</a><span> | </span><a href="./steuern">Steuern</a><span> | </span><a href="/websites">Websites</a><span> | </span><a href="https://git.sr.ht/~bt/barf">Source Code</a>
+</nav>
+
+<main>
+<h1>BF FTA 2.2</h1>
+<p>2022-04-04</p>
+<h3>GV1</h3>
+<ul>
+<li>PKW = notwendiges BV, da er ausschließlich betr. genutzt wird R4.2(1)S.1EStR</li>
+<li>PKW = bewegliches, abnutzbares AV (dauerhaft dem Betrieb dienend) R6.1(1)S.1+5EStR.</li>
+<li>Bewertung mit AK-AfA §6(1)Nr.1S.1</li>
+<li>AK:</li>
+</ul>
+<blockquote><p>AK §255(1)S.1 HGB KP 19.500</p>
+<p>ANK §255(1)S.2 Überführungskosten 500</p>
+<p>NAK §255(1)S.2 Lackierung (714/119x100=) 600</p>
+<p>AKM §255(1)S.3 Rabatt 5% (((23.800)x0,05)/119x100=) 1.000</p>
+<p>= insgesamt 25450+500+600-1800 = 19.600 AK</p>
+</blockquote>
+<ul>
+<li>AK ohne VorSt §9b(1)EStG, da U zum VorStabzug berechtigt ist §15 und diese abziehbar §15(1) und abzugsfähig §15(2) ist.</li>
+<li>Kfz-Steuer ist BA §4(4)</li>
+<li>Durch die nachträglichen AK erhöht sich die BMG für den Umsatz, weshalb die VorSt angepasst werden muss §17(1)S.2.</li>
+<li>Durch die nachträgliche AKM vermindert sich die BMG für den Umsatz, weshalb die VorSt angepasst werden muss §17(1)S.2.</li>
+<li>Die geleistete Anzahlung stellt eine Forderung ggnüber der Auto GmbH dar. Hierfür ist bereits VorSt abziehbar §15(1)Nr.1S.3</li>
+<li><strong>AfA</strong>:</li>
+<li>Alle AfA-Vorschriften beginnen im Jahr der Anschaffung, also Lieferung, also in 01 §9aEStDV.</li>
+<li><strong>Sapo/GwG</strong>:</li>
+<li>Da die AK mit 19.600 &gt; 1000 und &gt; 800, sind GwG und SaPo nicht möglich.</li>
+<li>-&gt; keine Günstigerprüfung notwendig.</li>
+<li><strong>SonderAfA</strong>:</li>
+<li>Da der PKW abnutzbares, bewegliches AV ist (s.o) ist die SonderAfA zu prüfen §7g(5).</li>
+<li>Der Gewinn im Vorjahr (vor der Anschaffung, also 00) übersteigt mit 180.000 die Grenze von 200.000 nicht §7g(6)Nr.1 iVm §7g(1)S.2Nr.1.</li>
+<li>Der PKW wird im Jahr der Anschaffung und im folgenden WJ in einer inländischen Betriebsstätte ausschließlich betr genutzt (100%, siehe SV) §7g(6)Nr.2.</li>
+<li>Somit kann die SonderAfA bis zu max 20% der AK im Jahr der Anschaffung und den folgenden 4 Jahren abgezogen werden (Wahlrecht). Da U das günstigste Ergebnis möchte, gänzlich im Jahr der Anschaffung 01.</li>
+<li>-&gt; 19.600x0,2 = 3920€ SonderAfA</li>
+<li><strong>lineare AfA</strong>:</li>
+<li>Ab dem Jahr der Anschaffung ist die lineare AfA anzuwenden §7(1)S.1+2. Zeitanteilig für 11 Monate (Feb-Dez) ab Anschaffung / Lieferung §9aEStDV.</li>
+<li>19.600/6J = 3266,67 = JahresAfA -&gt; <em></em>11/12Monate = 2994,44€ in 01.</li>
+<li><p><strong>Bilanzansatz</strong> zum 31.12.01: 19.600 - 3920 - 2994,44 = 12685,56€</p>
+</li>
+<li><strong>BS</strong>:</li>
+</ul>
+<blockquote><p>03.12.00 zutreffend lt SV</p>
+</blockquote>
+<blockquote><p>17.02.01</p>
+<p>Fuhrpark	20.000	an	gel.Anz	5.000</p>
+<p>VorSt		2.850		Bank	17.850	</p>
+<p>GFA 0 -GS 0 =GK 0</p>
+</blockquote>
+<blockquote><p>19.02.01</p>
+<p>Fuhrpark	600	an	Kasse	714</p>
+<p>VorSt		114	</p>
+<p>GFA 0 -GS -600 =GK +600</p>
+</blockquote>
+<blockquote><p>03.06.01</p>
+<p>/1</p>
+<p>Bank	1190	an	Fuhrpark 1000</p>
+<p>an			VorSt	190</p>
+<p>GFA 0 -GS+1190 =GK -1190</p>
+<p>/2</p>
+<p>Kfz-Aufwand	an	Bank	119</p>
+<p>GFA -119 -GS-100 =GK -19</p>
+<p>(Die Versicherung ist USt-frei §4 UStG)</p>
+</blockquote>
+<blockquote><p>31.12.01</p>
+<p>sonderAfA	an	Fuhrpark 3.920</p>
+<p>GFA -3.920 -GS0 =GK .3.920</p>
+</blockquote>
+<blockquote><p>31.12.01</p>
+<p>linAfA	an	Fuhrpark 2994,44</p>
+<p>GFA -2994,44 -GS0 = GK -2994,44</p>
+</blockquote>
+<h3>GV2</h3>
+<ul>
+<li>Vogelkäfig = notwendiges BV (da ausschließlich betrieblich genutzt, Ware) R4.2(1)S.1</li>
+<li>= UV (zum Verkauf bestimmt) R6.1(2)</li>
+<li>Bewertung mit den AK §6(1)Nr.2S.1</li>
+<li>AK §255(1)S.1 nicht im SV angegeben</li>
+<li>Kein Bilanzansatz, da verkauft</li>
+<li>Warenverkauf = BE §4(4)iU</li>
+<li>Das ist ein Hauptgeschäft und somit USt-Pflichtig</li>
+<li>Lieferung §3(1)</li>
+<li>Steuerbar §1(1)Nr.1 UStG und steuerpflichtig §4UStG</li>
+<li>Steuersatz 19% §12(1)</li>
+<li>BMG = Entgelt = Alles aber ohne USt §10(1)S.1+2 = 300/119x100 = 252,10</li>
+<li>USt = 47,90</li>
+<li>Der Forderungsausfall ist ein a.o.Aufwand, er führt zu einer neuberechnung der USt §17(1)S.1 iVm §17(2)Nr.1S.1.</li>
+<li>Somit letztentlich USt iHv 50/119x19 = 7,98</li>
+</ul>
+<blockquote><p>08.08.01</p>
+<p>Kasse	50	an	WVK 252,10</p>
+<p>KuFo	250		USt 47,90</p>
+<p>GFA +252,10 -GS +42,02 =GK +210,08</p>
+</blockquote>
+<blockquote><p>11.11.01</p>
+<p>Forderungsausfall 210,08	an	KuFo 250</p>
+<p>USt 39,92</p>
+<p>GFA-210,08 -GS0 =GK -210,08</p>
+</blockquote>
+<h3>GV3</h3>
+<ul>
+<li>Transportbox = notwendiges BV R4.2(1)S.1 100% betr</li>
+<li>beide Papageien = notwendiges BV R4.2(1)S.4 (6/7Tage -&gt; 86% betr)</li>
+<li>alles = abnutzbares bewegl selbstständig nutzbares §6(2)S.2 AV R6.1(1)S.1+5 (soll dem Betrieb auf Dauer dienen, nicht zum Verkauf bestimmt)</li>
+<li>alle 3 WG Bewertung mit AK-AfA §6(1)Nr.1S.1</li>
+<li>AK grundsätzlich ohne USt, da U im Regelfall VorSt-Abzugsberechtigt §15UStG ist §9b(1)EStG</li>
+<li><strong>Transportbox:</strong></li>
+<li>U zahlt die Box vor der Lieferung (gel. Anz), das stellt eine Forderung gegenüber dem Onlineversandhaus dar</li>
+<li>Die Zahlung vor Lieferungsausführung führt zu VorStAbzug §15(1)S.1Nr.1S.3 </li>
+<li>BV gezahlt mit priv Konto = Einlage §4(1)S.8</li>
+<li>AK Transportbox</li>
+</ul>
+<blockquote><p>AK §255(1)S.1 KP 235,29 (exklusive 44,71 USt)</p>
+</blockquote>
+<ul>
+<li>männlicher Papagei:</li>
+<li>Brutto=Netto, da die Verkäuferin als Privatperson keine USt ausweisen darf, somit auch keine VorSt abziehbar</li>
+<li>Die 2 Säcke Futter für 20€ sind BA §4(4) (Futteraufwand)</li>
+<li>AK männlicher Papagei</li>
+</ul>
+<blockquote><p>AK §255(1)S.1 KP 980</p>
+</blockquote>
+<ul>
+<li>weiblicher Papagei:</li>
+<li>AK weiblicher Papagei:</li>
+</ul>
+<blockquote><p>AK §255(1)S.1 KP 900 (exklusive 171 USt)</p>
+</blockquote>
+<ul>
+<li>Da alle 3 WG abnutzbares, bewegliches, selbstständig nutzbares AV sind (s.o.), muss jeweils die AfA geprüft werden. Es folgt eine Günstigerprüfung verschiedener AfA-Methoden.</li>
+<li>Transportbox mit 235,29€ &lt;= 250 (kein SaPo §6(2a)S.1+2 möglich), mit 235,29€ &lt; 800 (GwG §6(2)S.1 möglich, offensichtlich günstigste Methode)</li>
+<li>Transportbox wird mit GwG-Methode abgeschrieben</li>
+<li><strong>Günstigerprüfung:</strong></li>
+</ul>
+<blockquote><p>SaPo §6(2a)S.1+2:</p>
+<p>SaPo = einheitliches Wahlrecht §6(2a)S.5</p>
+<p>männl Papagei 980 &gt; 250 und 980 &lt;= 1000 -&gt; SaPo möglich</p>
+<p>weibl Papagei 900 &gt; 250 und 900 &lt;= 1000 -&gt; SaPo möglich</p>
+<p>gesamter Sapo über 5 Jahre gleichmäßig abschreiben, nicht zeitanteilig 980+900 = 1880 / 5J = 376 in 01</p>
+</blockquote>
+<blockquote><p>GwG + linAfA §7(1)S.1+2 + SonderAfA §7g(5)+(6)</p>
+<p>Prüfung sonderAfA: </p>
+<p>beide Papageien sind abnutzbares, bewegliches AV (s.o.) §7g(5)</p>
+<p>Der Gewinn im Jahr vor Anschaffung (00) liegt mit 180.000 unter der Grenze von 200.000 §7g(6)Nr.1 iVm §7g(1)S.2Nr.1</p>
+<p>Die Papageien werden im Jahr der Anschaffung und mindestens im Folgejahr jedoch nicht fast ausschließlich benutzt (87 &lt; 90 s.o.) §7g(6)Nr.2.</p>
+<p>Somit ist die Sonder-AfA nicht möglich</p>
+<p>Prüfung GwG:</p>
+<p>beide Papageien sind mit 980 bzw 900 AK über 800, somit ist GwG nicht möglich §6(2)S.1, auch wenn sie selbstständig nutzbar sind §6(2)S.2</p>
+<p>linAfA §7(1)S.1+2:</p>
+<p>männl Papagei ND 6J, ab Anschaffung §9aEStDV im Januar, also nicht zeitanteilig</p>
+<p>980/6 = 163,33€ in 01</p>
+<p>weibl Papagei ND 8J, ab Anschaffung §9aEStDV, zeitanteilig für 11 Monate (Feb-Dez)</p>
+<p>900/8 x 11/12 = 103,13 in 01</p>
+<p>= in 01 266,46€</p>
+</blockquote>
+<blockquote><p>ausschließlich linAfA §7(1)S.1+2 und sonderAfA:</p>
+<p>offensichtlich ungünstiger als Sofortabschreibung, falls möglich</p>
+</blockquote>
+<ul>
+<li>376€ &gt; 266,46€ -&gt; SaPo ist günstiger</li>
+<li><strong>Bilanzansatz</strong> zum 31.12. Transportkiste (kein Bilanzansatz, vollständig ausgebucht GwG)</li>
+<li>Bilanzansatz zum 31.12. Papagei1 und2: kein Bilanzansatz, nur innerhalb des SaPo berücksichtigt</li>
+<li>Bilanzansatz zum 31.12. Sapo: 1880-376 = 1504€</li>
+<li><strong>BS</strong>:</li>
+</ul>
+<blockquote><p>02.01.01 </p>
+<p>gel Anz 235,29 an Einlage 280</p>
+<p>VorSt 44,71</p>
+<p>GFA0 -GS0 =GK0</p>
+</blockquote>
+<blockquote><p>20.01.01</p>
+<p>BGA 235,29	an	gel.Anz 235,29</p>
+<p>GFA0 GS0 GK0</p>
+</blockquote>
+<blockquote><p>26.01.01</p>
+<p>BGA 980	an	Kasse	1000</p>
+<p>FutterAufwand 20</p>
+<p>GFA -20 -GS -1000 = GK +9980</p>
+</blockquote>
+<blockquote><p>15.02.01</p>
+<p>BGA 900	an	Kasse 1071</p>
+<p>VorSt 171</p>
+<p>GFA0 -GS-900 =GK +900</p>
+</blockquote>
+<blockquote><p>31.12.01</p>
+<p>SaPo01	an BGA	1880</p>
+<p>GFA0 -GS0 =GK0</p>
+</blockquote>
+<blockquote><p>31.12.01</p>
+<p>SaPo01 Abschreibung an SaPo 376</p>
+<p>GFA -376 -GS0 =GK -376</p>
+</blockquote>
+<blockquote><p>31.12.01</p>
+<p>GwG-Aufw an BGA 235,29</p>
+<p>GFA -235,29 -GS0 = GK -235,29</p>
+</blockquote>
+<h3>GV4</h3>
+<ul>
+<li>Wellensittiche = notw BV, da zum Verkauf bestimmt R4.2(1)S.1</li>
+<li>= UV R6.1(2)</li>
+<li>Bewertung mit AK §6(1)Nr.2S.1</li>
+<li>AK = netto §9b(1)EStG, da U hierfür VorStAbzugsberechtigt §15, weil abziehbar §15(1) und abzugsfähig §15(2)</li>
+<li>AK:</li>
+</ul>
+<blockquote><p>AK §255(1)S.1 KP 1000 / 10 pro Stk</p>
+<p>ANK §255(1)S.2 200 / 2 pro Stk</p>
+<p>AKM §255(1)S.3 168,07 / 1,68 pro Stk (200/119x100, also 31,93 VorSt)</p>
+<p>AK pro Stück = (1000+200-168,07)/100 = 10,32 pro Stk</p>
+</blockquote>
+<ul>
+<li>Bilanzansatz zum 31.12.01: 10,32 x (100-84-5-3=) 8 = 82,56€</li>
+<li>Ein Ansatz mit höherem Wert als den ursprünglichen AK ist wegen des Realisationsprinzips nicht möglich §252(1)Nr.4</li>
+<li>Verkauf von Waren = BE §4(4)iU</li>
+<li>das ist ein Grundgeschäft, 84 Lieferungen §3(1)</li>
+<li>steuerbar und steuerpflichtig</li>
+<li>Steuersatz 19% §12(1)</li>
+<li>BMG alles ohne USt §10(1)S.1+2 = nicht im SV</li>
+<li>Der Preisnachlass ist eine nachträgliche Änderung der AK und somit der BMG für die VorSt, somit ist die VorSt zu berichtigen §17(1)S.2</li>
+<li>Tod der Wellensittiche = VDS</li>
+<li>Verlos bei Tombola = Lfg §3(1)UStG, die mangels entgelt nicht Steuerbar ist §1(1)Nr.1</li>
+<li><strong>BS</strong>:</li>
+</ul>
+<blockquote><p>01.03.01 keine Buchung, da nur Bestellung</p>
+<p>GFA0 -GS-1.200 =GK +1.200</p>
+</blockquote>
+<blockquote><p>03.03.01</p>
+<p>WEK 1.200	an	Bank 1.428</p>
+<p>VorSt 228</p>
+<p>GFA-1.200 -GS0 =GK -1.200</p>
+</blockquote>
+<blockquote><p>04.03.01</p>
+<p>Bank 200	an	WVK 168,07</p>
+<p>an VorSt 31,93</p>
+<p>GFA +168,07 -GS +200 = GK -31,93</p>
+</blockquote>
+<blockquote><p>15.08.01</p>
+<p>VDS an WEK 51,6</p>
+<p>Keine Gewinnauswirkung. Buchung notwendig, da sonst WES zu hoch und Rohgewinn zu niedrig.</p>
+</blockquote>
+<blockquote><p>01.09.01</p>
+<p>Werbeaufwand	an	WEK 30,96</p>
+<p>GFA 0 -GS0 =GK0</p>
+</blockquote>
+<blockquote><p>31.12.01</p>
+<p>Stpfl Bilanzansatz Wellensittiche 12€x16 = 192€</p>
+<p>tatsächlicher Bilanzansatz: 82,56€</p>
+<p>-&gt; Bilanzansatz um 192-82,56 = 109,44 niedriger als Stpfl</p>
+<p>-&gt; aus WBE 30,81 wird 30,81-109,44 = -78,63 -&gt; WBM 78,63</p>
+<p>-&gt; SBK an WBK ist um 109,44 niedriger</p>
+<p>-&gt; aus SBK an WBK 14.380 wird 14.380-109,44 = 14270,56</p>
+<p>SBK an WBK 14.270,56</p>
+<p>rein technische Buchung, keine Gewinnauswirkung</p>
+<p>WBM	an	WBK	78,63</p>
+<p>GFA -78,63 -GS+30,81 = GK-109,44</p>
+</blockquote>
+<h3>GV5</h3>
+<ul>
+<li>Prüfung §7g:</li>
+<li>§7g(1)S.1</li>
+<li>Schimpanse = notwendiges BV (100% betr) R4.2(1)S.1</li>
+<li>= abnutzbares bewegliches selbst nutzbares (§6(2)S.2) AV R6.1(1)S.1+5</li>
+<li>Anbau = notw BV aber unbewegliches AV -&gt; kein IAB §7g(1)S.1</li>
+<li>U möchte diese künftig (im Folgejahr) anschaffen</li>
+<li>Beides soll "In den nächsten Jahren" also mindestens in dem Jahr der Anschaffung und dem Folgejahr (02+03) in einer inländischen Betriebsstätte ausschließlich betr genutzt werden (Haltefrist)</li>
+<li>§7g(1)S.2Nr.1 der Gewinn beträgt in 01 190.000 und somit weniger als 200.000</li>
+<li>§7g(1)S.2Nr.2 die geplante Anschaffung wurde per Datenfernübertragung an das FA übermittelt (SV)</li>
+<li>§7g(1)S.4 vorher noch kein IAB gebildet, im Jahr der Planung max 1.500/2 = 750€, somit weniger als 200.000</li>
+<li>Somit kann (wahlrecht) IAB iHv 750€ gebildet werden §7g(1)S.1</li>
+<li>U macht das, da sie den geringstmöglichen Gewinn möchte (SV)</li>
+<li>Dieser ist im Jahr der Planung außerbilanziell gewinnmindernd abzuziehen</li>
+<li>IAB-BMG ist netto §9b(1)EStG</li>
+<li>IAB-BMG = AK = insgesamt 750€</li>
+<li>BS:</li>
+<li>keine BS, da außerbilanziell</li>
+<li>-&gt; GFA0 -GS-6.500 =GK +6.500</li>
+<li>außerbilanzielle GK 01: -750</li>
+</ul>
+<footer role="contentinfo">
+    <!--span><a href="#">↑ Back to Top</a></span><br><br-->
+    <small>
+        Built with <a href="https://git.sr.ht/~bt/barf">barf</a>. <br>
+    </small>
+</footer>
